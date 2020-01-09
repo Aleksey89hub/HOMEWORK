@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Acceptance suite">
+    <listeners>
+        <listener class-name="by.stormnet.automation.core.common.AnnotationTransformer"/>
+    </listeners>
+    <test verbose="2" name="login test">
+        <classes>
+            <class name="by.stormnet.web.LoginTest"/>
+        </classes>
+    </test>
+</suite>
